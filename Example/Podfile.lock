@@ -1,0 +1,16 @@
+PODS:
+  - HPTunerFunction (0.1.0)
+
+DEPENDENCIES:
+  - HPTunerFunction (from `../`)
+
+EXTERNAL SOURCES:
+  HPTunerFunction:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HPTunerFunction: 3341be5d180ee6b56a91a70fd78a7a5a22c841db
+
+PODFILE CHECKSUM: 739b11fc7f3d8cfe3dca5cf44ceba72d83368f8b
+
+COCOAPODS: 1.11.3

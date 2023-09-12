@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HPTunerFunction'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of HPTunerFunction.'
+  s.version          = '1.0.0'
+  s.summary          = 'a simple tuner functions'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?

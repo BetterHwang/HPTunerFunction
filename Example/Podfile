@@ -8,6 +8,6 @@ target 'HPTunerFunction_Example' do
   target 'HPTunerFunction_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase'
+    
   end
 end

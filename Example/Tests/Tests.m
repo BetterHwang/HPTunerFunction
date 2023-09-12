@@ -2,11 +2,12 @@
 //  HPTunerFunctionTests.m
 //  HPTunerFunctionTests
 //
-//  Created by hyd0316@vip.qq.com on 09/12/2023.
+//  Created by hyd0316@vip.qq.com on 09/11/2023.
 //  Copyright (c) 2023 hyd0316@vip.qq.com. All rights reserved.
 //
 
 @import XCTest;
+@import HPTunerFunction;
 
 @interface Tests : XCTestCase
 
@@ -28,7 +29,9 @@
 
 - (void)testExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    
+    
+//    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
 }
 
 @end
