@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/hyd0316@vip.qq.com/HPTunerFunction'
+  s.homepage         = 'https://github.com/BetterHwang/HPTunerFunction'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'hyd0316@vip.qq.com' => 'hyd0316@vip.qq.com' }
-  s.source           = { :git => 'https://github.com/hyd0316@vip.qq.com/HPTunerFunction.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/BetterHwang/HPTunerFunction.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
