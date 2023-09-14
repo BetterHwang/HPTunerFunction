@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		057909DE2B46D90F1362FD405B38C2C5 /* HPTunerFunction-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A86BE63883A2F5AAF59EE5985DF2DBEB /* HPTunerFunction-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		088E2AF42AB3013900CFD58D /* CMicrophonePitchDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = 088E2AF02AB3013900CFD58D /* CMicrophonePitchDetector.h */; };
+		088E2AF52AB3013900CFD58D /* ptrack.c in Sources */ = {isa = PBXBuildFile; fileRef = 088E2AF12AB3013900CFD58D /* ptrack.c */; };
+		088E2AF62AB3013900CFD58D /* base.c in Sources */ = {isa = PBXBuildFile; fileRef = 088E2AF22AB3013900CFD58D /* base.c */; };
+		088E2AF72AB3013900CFD58D /* fft.c in Sources */ = {isa = PBXBuildFile; fileRef = 088E2AF32AB3013900CFD58D /* fft.c */; };
+		088E2B092AB3022F00CFD58D /* HPNoteInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 088E2B002AB3022F00CFD58D /* HPNoteInfo.m */; };
+		088E2B0B2AB3022F00CFD58D /* HPNoteInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 088E2B022AB3022F00CFD58D /* HPNoteInfo.h */; };
 		1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
 		2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -36,7 +42,6 @@
 		C9F76407497DF0205D7460B36D22259F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */; };
 		CA54C09A12400567AFFCB407EEB7E154 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
 		D32B3D9E4B89E1C40A5E9E7F1205A31B /* Pods-HPTunerFunction_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 898FBE5B4D6EF00DEA3250D9B1368B02 /* Pods-HPTunerFunction_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8803EC63E17B404B15EE60DECE11521 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AAC9DD37F40964E9955DEC944A5B81C /* ReplaceMe.m */; };
 		FF8307B7346F4D3BA13C11AECFE6EDD0 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -65,6 +70,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		088E2AF02AB3013900CFD58D /* CMicrophonePitchDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMicrophonePitchDetector.h; sourceTree = "<group>"; };
+		088E2AF12AB3013900CFD58D /* ptrack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ptrack.c; sourceTree = "<group>"; };
+		088E2AF22AB3013900CFD58D /* base.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base.c; sourceTree = "<group>"; };
+		088E2AF32AB3013900CFD58D /* fft.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fft.c; sourceTree = "<group>"; };
+		088E2B002AB3022F00CFD58D /* HPNoteInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPNoteInfo.m; sourceTree = "<group>"; };
+		088E2B022AB3022F00CFD58D /* HPNoteInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPNoteInfo.h; sourceTree = "<group>"; };
 		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		15532254D5AE66A40A841F001E9F8DA9 /* Pods-HPTunerFunction_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HPTunerFunction_Tests-Info.plist"; sourceTree = "<group>"; };
 		1A398D7758B47ADCA829D8F769C920B3 /* Pods-HPTunerFunction_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HPTunerFunction_Tests.modulemap"; sourceTree = "<group>"; };
@@ -76,19 +87,18 @@
 		24B3A86BD90F6E314C97AC35471BCD79 /* Pods-HPTunerFunction_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HPTunerFunction_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		3266A1072F76ED71E518A757F4FA612E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3266A1072F76ED71E518A757F4FA612E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3280BB5E7B57C31D41117A74F76E9DF3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		38BC37195188EFF5B28F453C1ED94CDD /* Pods-HPTunerFunction_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HPTunerFunction_Tests"; path = Pods_HPTunerFunction_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A8C5464BEE7F76C8B9C8DF7FB0AF1A0 /* Pods-HPTunerFunction_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HPTunerFunction_Example"; path = Pods_HPTunerFunction_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ED0E3720741272454D1BE714F63543C /* Pods-HPTunerFunction_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HPTunerFunction_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
-		4089F429E3208B5EA1DB9ADD52AEEB47 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4089F429E3208B5EA1DB9ADD52AEEB47 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		4B853863447622352BB95F1F7AF2636E /* Pods-HPTunerFunction_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HPTunerFunction_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
 		57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		589DCF186711A72EF39AF315B09E0953 /* HPTunerFunction.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HPTunerFunction.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		5AAC9DD37F40964E9955DEC944A5B81C /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = HPTunerFunction/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		589DCF186711A72EF39AF315B09E0953 /* HPTunerFunction.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HPTunerFunction.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CF29B45E38D8B66E80828A859775AB9 /* Pods-HPTunerFunction_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HPTunerFunction_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
@@ -101,7 +111,7 @@
 		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
 		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F12A24B9C28E4DD5418099F4D9831CC /* Pods-HPTunerFunction_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HPTunerFunction_Tests-dummy.m"; sourceTree = "<group>"; };
 		9FC790C33CF16E68AAFA875216845602 /* Pods-HPTunerFunction_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HPTunerFunction_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A6426916F696C80B550DC2BC8E0BFC4C /* Pods-HPTunerFunction_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HPTunerFunction_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -117,7 +127,7 @@
 		CAA52F57C5084E683BA983D843B551DF /* HPTunerFunction.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HPTunerFunction.modulemap; sourceTree = "<group>"; };
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		D7A4DD65080975DC5AB12E99ACF8EA06 /* HPTunerFunction */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HPTunerFunction; path = HPTunerFunction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7A4DD65080975DC5AB12E99ACF8EA06 /* HPTunerFunction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HPTunerFunction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		D8E461401568506ECF980C997ADDF697 /* Pods-HPTunerFunction_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HPTunerFunction_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DF388D134F1D257D3CDE841DC18E668D /* Pods-HPTunerFunction_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HPTunerFunction_Example-Info.plist"; sourceTree = "<group>"; };
@@ -181,11 +191,33 @@
 			path = "Example/Pods/Target Support Files/HPTunerFunction";
 			sourceTree = "<group>";
 		};
+		088E2AEF2AB3013900CFD58D /* CMicrophonePitchDetector */ = {
+			isa = PBXGroup;
+			children = (
+				088E2AF02AB3013900CFD58D /* CMicrophonePitchDetector.h */,
+				088E2AF12AB3013900CFD58D /* ptrack.c */,
+				088E2AF22AB3013900CFD58D /* base.c */,
+				088E2AF32AB3013900CFD58D /* fft.c */,
+			);
+			name = CMicrophonePitchDetector;
+			path = HPTunerFunction/Classes/CMicrophonePitchDetector;
+			sourceTree = "<group>";
+		};
+		088E2AFF2AB3022F00CFD58D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				088E2B002AB3022F00CFD58D /* HPNoteInfo.m */,
+				088E2B022AB3022F00CFD58D /* HPNoteInfo.h */,
+			);
+			name = Classes;
+			path = HPTunerFunction/Classes;
+			sourceTree = "<group>";
+		};
 		1DD04CC272F95371DFF92366FD2D9443 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */,
-				D7A4DD65080975DC5AB12E99ACF8EA06 /* HPTunerFunction */,
+				D7A4DD65080975DC5AB12E99ACF8EA06 /* HPTunerFunction.framework */,
 				3A8C5464BEE7F76C8B9C8DF7FB0AF1A0 /* Pods-HPTunerFunction_Example */,
 				38BC37195188EFF5B28F453C1ED94CDD /* Pods-HPTunerFunction_Tests */,
 			);
@@ -233,7 +265,8 @@
 		5EEFA34F1392C0C98128C125472F6194 /* HPTunerFunction */ = {
 			isa = PBXGroup;
 			children = (
-				5AAC9DD37F40964E9955DEC944A5B81C /* ReplaceMe.m */,
+				088E2AFF2AB3022F00CFD58D /* Classes */,
+				088E2AEF2AB3013900CFD58D /* CMicrophonePitchDetector */,
 				DB3BDACE8D3DFC542A40B04F89BDBFEA /* Pod */,
 				06FDF0C43F4543E045ED3204110A6EE8 /* Support Files */,
 			);
@@ -313,7 +346,6 @@
 				B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */,
 				906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */,
 			);
-			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -366,6 +398,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				057909DE2B46D90F1362FD405B38C2C5 /* HPTunerFunction-umbrella.h in Headers */,
+				088E2AF42AB3013900CFD58D /* CMicrophonePitchDetector.h in Headers */,
+				088E2B0B2AB3022F00CFD58D /* HPNoteInfo.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,7 +452,7 @@
 			);
 			name = HPTunerFunction;
 			productName = HPTunerFunction;
-			productReference = D7A4DD65080975DC5AB12E99ACF8EA06 /* HPTunerFunction */;
+			productReference = D7A4DD65080975DC5AB12E99ACF8EA06 /* HPTunerFunction.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
@@ -486,6 +520,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					6E3EAD65B445C68F20E3EBD8D96B9DF4 = {
+						LastSwiftMigration = 1430;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -576,8 +615,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				088E2AF52AB3013900CFD58D /* ptrack.c in Sources */,
 				B3CA0C84955CCDFC42CB01E5B3F87A8A /* HPTunerFunction-dummy.m in Sources */,
-				F8803EC63E17B404B15EE60DECE11521 /* ReplaceMe.m in Sources */,
+				088E2AF62AB3013900CFD58D /* base.c in Sources */,
+				088E2B092AB3022F00CFD58D /* HPNoteInfo.m in Sources */,
+				088E2AF72AB3013900CFD58D /* fft.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -673,6 +715,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FACA4B34284F778096710B59EA5D58EF /* HPTunerFunction.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -693,6 +736,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -704,6 +748,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 746038F49B3DE826DD1B8C21796872A5 /* HPTunerFunction.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -787,8 +832,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
