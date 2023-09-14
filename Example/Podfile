@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'HPTunerFunction_Example' do
+  pod 'HPTunerFunction', :path => '../'
+
+  target 'HPTunerFunction_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
