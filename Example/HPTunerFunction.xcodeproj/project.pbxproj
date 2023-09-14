@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0BF342BB173A3EDA31FB70C4 /* Pods-HPTunerFunction_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPTunerFunction_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HPTunerFunction_Tests/Pods-HPTunerFunction_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		217F4FB520772407FEC0A0BE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		217F4FB520772407FEC0A0BE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		537FF10178B124266487339B /* Pods_HPTunerFunction_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HPTunerFunction_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5987A6BB9B714CFC1885BF8B /* Pods-HPTunerFunction_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPTunerFunction_Tests.release.xcconfig"; path = "Target Support Files/Pods-HPTunerFunction_Tests/Pods-HPTunerFunction_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HPTunerFunction_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HPTunerFunction_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,8 +63,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95618B836DDF047E4A557E6C /* Pods-HPTunerFunction_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPTunerFunction_Example.debug.xcconfig"; path = "Target Support Files/Pods-HPTunerFunction_Example/Pods-HPTunerFunction_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A209409BA7CB25F8F2485EC9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		A24714A8B30C757056F1D1E7 /* HPTunerFunction.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HPTunerFunction.podspec; path = ../HPTunerFunction.podspec; sourceTree = "<group>"; };
+		A209409BA7CB25F8F2485EC9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A24714A8B30C757056F1D1E7 /* HPTunerFunction.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HPTunerFunction.podspec; path = ../HPTunerFunction.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AD0A163C3D0757DFDD8C567B /* Pods_HPTunerFunction_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HPTunerFunction_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE03F343F46253336EBC496E /* Pods-HPTunerFunction_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPTunerFunction_Example.release.xcconfig"; path = "Target Support Files/Pods-HPTunerFunction_Example/Pods-HPTunerFunction_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +103,6 @@
 				0BF342BB173A3EDA31FB70C4 /* Pods-HPTunerFunction_Tests.debug.xcconfig */,
 				5987A6BB9B714CFC1885BF8B /* Pods-HPTunerFunction_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

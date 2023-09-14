@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - HPTunerFunction (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - HPTunerFunction (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  HPTunerFunction:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  HPTunerFunction: 3341be5d180ee6b56a91a70fd78a7a5a22c841db
+
+PODFILE CHECKSUM: b1591d602beeb3aceedf8ce6aca424c295b93a12
+
+COCOAPODS: 1.12.1
