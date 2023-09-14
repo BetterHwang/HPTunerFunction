@@ -25,8 +25,8 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'BetterHwang' => 'hyd0316@vip.qq.com' }
-  #s.source           = { :git => 'https://github.com/BetterHwang/HPTunerFunction.git', :tag => s.version.to_s }
-  s.source           = { :http => 'https://github.com/BetterHwang/HPTunerFunction'}
+  s.source           = { :git => 'https://github.com/BetterHwang/HPTunerFunction.git', :tag => s.version.to_s }
+#  s.source           = { :http => 'https://github.com/BetterHwang/HPTunerFunction/archive/refs/tags/v%s.zip', %s.version}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
