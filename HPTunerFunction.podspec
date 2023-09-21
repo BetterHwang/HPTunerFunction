@@ -32,12 +32,12 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
 #  s.source_files = 'HPTunerFunction/Classes/**/*'
+#  s.public_header_files = 'HPTunerFunction/Classes/**/*.h'
   
   # s.resource_bundles = {
   #   'HPTunerFunction' => ['HPTunerFunction/Assets/*.png']
   # }
 
-  s.public_header_files = 'HPTunerFunction/Classes/**/*.h'
   s.frameworks = 'AVFoundation', 'Foundation'
   s.vendored_frameworks = 'HPTunerFunction/HPTunerFunction.framework'
   # s.dependency 'AFNetworking', '~> 2.3'

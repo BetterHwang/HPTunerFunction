@@ -1,0 +1,6 @@
+framework module HPTunerFunction {
+  umbrella header "HPTunerFunction-umbrella.h"
+
+  export *
+  module * { export * }
+}
