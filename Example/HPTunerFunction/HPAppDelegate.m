@@ -7,12 +7,19 @@
 //
 
 #import "HPAppDelegate.h"
+#import <AVFoundation/AVFoundation.h>
 
 @implementation HPAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    NSError *error;
+    [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryPlayback error:&error];
+    [[AVAudioSession sharedInstance] setMode:AVAudioSessionModeMoviePlayback error:&error];
+    [[AVAudioSession sharedInstance] setActive:YES error:&error];
+    
     return YES;
 }
 

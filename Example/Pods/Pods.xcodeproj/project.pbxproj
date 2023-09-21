@@ -13,7 +13,13 @@
 		088E2AF62AB3013900CFD58D /* base.c in Sources */ = {isa = PBXBuildFile; fileRef = 088E2AF22AB3013900CFD58D /* base.c */; };
 		088E2AF72AB3013900CFD58D /* fft.c in Sources */ = {isa = PBXBuildFile; fileRef = 088E2AF32AB3013900CFD58D /* fft.c */; };
 		088E2B092AB3022F00CFD58D /* HPNoteInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 088E2B002AB3022F00CFD58D /* HPNoteInfo.m */; };
-		088E2B0B2AB3022F00CFD58D /* HPNoteInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 088E2B022AB3022F00CFD58D /* HPNoteInfo.h */; };
+		088E2B0B2AB3022F00CFD58D /* HPNoteInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 088E2B022AB3022F00CFD58D /* HPNoteInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		088E2B132AB3E73F00CFD58D /* HPPitchTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 088E2B112AB3E73F00CFD58D /* HPPitchTracker.h */; };
+		088E2B142AB3E73F00CFD58D /* HPPitchTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 088E2B122AB3E73F00CFD58D /* HPPitchTracker.m */; };
+		088E2B172AB3F4E800CFD58D /* HPAudioTuner.h in Headers */ = {isa = PBXBuildFile; fileRef = 088E2B152AB3F4E800CFD58D /* HPAudioTuner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		088E2B182AB3F4E800CFD58D /* HPAudioTuner.m in Sources */ = {isa = PBXBuildFile; fileRef = 088E2B162AB3F4E800CFD58D /* HPAudioTuner.m */; };
+		088E2B1B2AB4053A00CFD58D /* HPToneOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 088E2B192AB4053A00CFD58D /* HPToneOutput.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		088E2B1C2AB4053A00CFD58D /* HPToneOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = 088E2B1A2AB4053A00CFD58D /* HPToneOutput.m */; };
 		1F84FE646CD1D7BAFFB58C243277AFF8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2975A09730FD83DC0897129A11EA6585 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
 		2B88C28DD20CBFA7B3AEB21A365197FE /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -76,6 +82,12 @@
 		088E2AF32AB3013900CFD58D /* fft.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fft.c; sourceTree = "<group>"; };
 		088E2B002AB3022F00CFD58D /* HPNoteInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPNoteInfo.m; sourceTree = "<group>"; };
 		088E2B022AB3022F00CFD58D /* HPNoteInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPNoteInfo.h; sourceTree = "<group>"; };
+		088E2B112AB3E73F00CFD58D /* HPPitchTracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPPitchTracker.h; sourceTree = "<group>"; };
+		088E2B122AB3E73F00CFD58D /* HPPitchTracker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPPitchTracker.m; sourceTree = "<group>"; };
+		088E2B152AB3F4E800CFD58D /* HPAudioTuner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPAudioTuner.h; sourceTree = "<group>"; };
+		088E2B162AB3F4E800CFD58D /* HPAudioTuner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPAudioTuner.m; sourceTree = "<group>"; };
+		088E2B192AB4053A00CFD58D /* HPToneOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HPToneOutput.h; sourceTree = "<group>"; };
+		088E2B1A2AB4053A00CFD58D /* HPToneOutput.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HPToneOutput.m; sourceTree = "<group>"; };
 		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		15532254D5AE66A40A841F001E9F8DA9 /* Pods-HPTunerFunction_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HPTunerFunction_Tests-Info.plist"; sourceTree = "<group>"; };
 		1A398D7758B47ADCA829D8F769C920B3 /* Pods-HPTunerFunction_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HPTunerFunction_Tests.modulemap"; sourceTree = "<group>"; };
@@ -206,8 +218,14 @@
 		088E2AFF2AB3022F00CFD58D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				088E2B002AB3022F00CFD58D /* HPNoteInfo.m */,
 				088E2B022AB3022F00CFD58D /* HPNoteInfo.h */,
+				088E2B002AB3022F00CFD58D /* HPNoteInfo.m */,
+				088E2B112AB3E73F00CFD58D /* HPPitchTracker.h */,
+				088E2B122AB3E73F00CFD58D /* HPPitchTracker.m */,
+				088E2B152AB3F4E800CFD58D /* HPAudioTuner.h */,
+				088E2B162AB3F4E800CFD58D /* HPAudioTuner.m */,
+				088E2B192AB4053A00CFD58D /* HPToneOutput.h */,
+				088E2B1A2AB4053A00CFD58D /* HPToneOutput.m */,
 			);
 			name = Classes;
 			path = HPTunerFunction/Classes;
@@ -398,8 +416,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				057909DE2B46D90F1362FD405B38C2C5 /* HPTunerFunction-umbrella.h in Headers */,
-				088E2AF42AB3013900CFD58D /* CMicrophonePitchDetector.h in Headers */,
+				088E2B1B2AB4053A00CFD58D /* HPToneOutput.h in Headers */,
+				088E2B172AB3F4E800CFD58D /* HPAudioTuner.h in Headers */,
 				088E2B0B2AB3022F00CFD58D /* HPNoteInfo.h in Headers */,
+				088E2AF42AB3013900CFD58D /* CMicrophonePitchDetector.h in Headers */,
+				088E2B132AB3E73F00CFD58D /* HPPitchTracker.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -615,9 +636,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				088E2B1C2AB4053A00CFD58D /* HPToneOutput.m in Sources */,
+				088E2B182AB3F4E800CFD58D /* HPAudioTuner.m in Sources */,
 				088E2AF52AB3013900CFD58D /* ptrack.c in Sources */,
 				B3CA0C84955CCDFC42CB01E5B3F87A8A /* HPTunerFunction-dummy.m in Sources */,
 				088E2AF62AB3013900CFD58D /* base.c in Sources */,
+				088E2B142AB3E73F00CFD58D /* HPPitchTracker.m in Sources */,
 				088E2B092AB3022F00CFD58D /* HPNoteInfo.m in Sources */,
 				088E2AF72AB3013900CFD58D /* fft.c in Sources */,
 			);

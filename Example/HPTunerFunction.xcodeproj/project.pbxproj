@@ -248,6 +248,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "hyd0316@vip.qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 7G3NS22V5M;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -513,6 +516,7 @@
 			baseConfigurationReference = 95618B836DDF047E4A557E6C /* Pods-HPTunerFunction_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7G3NS22V5M;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HPTunerFunction/HPTunerFunction-Prefix.pch";
 				INFOPLIST_FILE = "HPTunerFunction/HPTunerFunction-Info.plist";
@@ -529,6 +533,7 @@
 			baseConfigurationReference = AE03F343F46253336EBC496E /* Pods-HPTunerFunction_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7G3NS22V5M;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HPTunerFunction/HPTunerFunction-Prefix.pch";
 				INFOPLIST_FILE = "HPTunerFunction/HPTunerFunction-Info.plist";

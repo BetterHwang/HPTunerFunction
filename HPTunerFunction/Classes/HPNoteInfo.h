@@ -25,14 +25,21 @@ typedef enum : NSUInteger {
 } HPNote_Type;
 
 @interface HPNoteInfo : NSObject
+/**音符**/
 @property (nonatomic, assign) HPNote_Type type;
+/**八度序号**/
 @property (nonatomic, assign) uint indexOfOctave;
+/**距离标准频率的 差值**/
 @property (nonatomic, assign) double offset;
 
+- (instancetype)initWithFreq:(double)freq;
 /**
  获取音调的频率
  */
--(double)getHz;
+- (double)getHz;
+
+/**获取音调名 未带序号**/
+- (NSArray<NSString *> *)getNames;
 
 // MARK: - 标准
 /**
