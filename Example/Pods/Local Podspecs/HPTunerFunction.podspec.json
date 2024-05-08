@@ -1,6 +1,6 @@
 {
   "name": "HPTunerFunction",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "summary": "test",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/BetterHwang/HPTunerFunction",
@@ -13,21 +13,18 @@
   },
   "source": {
     "git": "https://github.com/BetterHwang/HPTunerFunction.git",
-    "tag": "0.0.2"
+    "tag": "0.0.4"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "12.0"
+  },
+  "pod_target_xcconfig": {
+    "VALID_ARCHS[sdk=iphonesimulator*]": "arm64"
   },
   "source_files": "HPTunerFunction/Classes/**/*",
   "public_header_files": "HPTunerFunction/Classes/*.h",
-  "static_framework": true,
   "frameworks": [
     "AVFoundation",
     "Foundation"
-  ],
-  "dependencies": {
-    "ReactiveObjC": [
-
-    ]
-  }
+  ]
 }

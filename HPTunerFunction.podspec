@@ -28,9 +28,13 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/BetterHwang/HPTunerFunction.git', :tag => s.version.to_s }
 #  s.source           = { :http => 'https://github.com/BetterHwang/HPTunerFunction/archive/refs/tags/v%s.zip', %s.version}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '10.0'
-
+#  s.requires_arc = true
+#  s.static_framework = true
+  s.ios.deployment_target = '12.0'
+#  valid_archs = ['arm64e', 'arm64', 'armv7s', 'armv7']
+#  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+#  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.pod_target_xcconfig = { 'VALID_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.source_files = 'HPTunerFunction/Classes/**/*'
   s.public_header_files = 'HPTunerFunction/Classes/*.h'
   
@@ -38,9 +42,8 @@ TODO: Add long description of the pod here.
   #   'HPTunerFunction' => ['HPTunerFunction/Assets/*.png']
   # }
   
-  s.static_framework = true
   s.frameworks = 'AVFoundation', 'Foundation'
-  s.dependency 'ReactiveObjC'
+#  s.dependency 'ReactiveObjC'
 #  s.ios.vendored_frameworks = 'HPTunerFunction/HPTunerFunction.framework'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

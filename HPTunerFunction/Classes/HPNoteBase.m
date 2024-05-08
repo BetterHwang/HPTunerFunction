@@ -6,7 +6,6 @@
 //
 
 #import "HPNoteBase.h"
-#import "ReactiveObjC/ReactiveObjC.h"
 
 @interface HPNoteBase() {
     
@@ -21,9 +20,7 @@ static HPNoteBase* sharedObj;
 
 +(instancetype)shared {
     static dispatch_once_t onceToken;
-    @weakify(self)
     dispatch_once(&onceToken, ^{
-        @strongify(self)
         sharedObj = [[HPNoteBase alloc] init];
     });
     

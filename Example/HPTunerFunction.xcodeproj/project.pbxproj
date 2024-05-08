@@ -480,17 +480,29 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7G3NS22V5M;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HPTunerFunction/HPTunerFunction-Prefix.pch";
 				INFOPLIST_FILE = "HPTunerFunction/HPTunerFunction-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
 				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-ld_classic",
+					"-l\"HPTunerFunction\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"Foundation\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -501,17 +513,29 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7G3NS22V5M;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HPTunerFunction/HPTunerFunction-Prefix.pch";
 				INFOPLIST_FILE = "HPTunerFunction/HPTunerFunction-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
 				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-ld_classic",
+					"-l\"HPTunerFunction\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"Foundation\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
