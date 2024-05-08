@@ -1,22 +1,33 @@
 {
   "name": "HPTunerFunction",
-  "version": "0.1.0",
-  "summary": "A short description of HPTunerFunction.",
+  "version": "0.0.2",
+  "summary": "test",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/hyd0316@vip.qq.com/HPTunerFunction",
+  "homepage": "https://github.com/BetterHwang/HPTunerFunction",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "hyd0316@vip.qq.com": "hyd0316@vip.qq.com"
+    "BetterHwang": "hyd0316@vip.qq.com"
   },
   "source": {
-    "git": "https://github.com/hyd0316@vip.qq.com/HPTunerFunction.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/BetterHwang/HPTunerFunction.git",
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "HPTunerFunction/Classes/**/*"
+  "source_files": "HPTunerFunction/Classes/**/*",
+  "public_header_files": "HPTunerFunction/Classes/*.h",
+  "static_framework": true,
+  "frameworks": [
+    "AVFoundation",
+    "Foundation"
+  ],
+  "dependencies": {
+    "ReactiveObjC": [
+
+    ]
+  }
 }

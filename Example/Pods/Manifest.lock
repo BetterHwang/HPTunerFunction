@@ -4,7 +4,9 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - HPTunerFunction (0.1.0)
+  - HPTunerFunction (0.0.2):
+    - ReactiveObjC
+  - ReactiveObjC (3.1.1)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -13,6 +15,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - FBSnapshotTestCase
+    - ReactiveObjC
 
 EXTERNAL SOURCES:
   HPTunerFunction:
@@ -20,8 +23,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  HPTunerFunction: 3341be5d180ee6b56a91a70fd78a7a5a22c841db
+  HPTunerFunction: c74cb98e37f2e7597c81c70b621643b51b9a8f44
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
 
-PODFILE CHECKSUM: b1591d602beeb3aceedf8ce6aca424c295b93a12
+PODFILE CHECKSUM: 17ad3377c503ab6f52541d7b46be48ee2db1c1c2
 
-COCOAPODS: 1.12.1
+COCOAPODS: 1.13.0

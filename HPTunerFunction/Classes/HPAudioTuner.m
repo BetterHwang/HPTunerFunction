@@ -29,11 +29,13 @@
 }
 
 - (void)startMIC {
-    [engine stop];
-    [engine reset];
+    if ([engine isRunning]) {
+        [engine stop];
+        [engine reset];
+    }
     
     AVAudioInputNode* inputNode = [engine inputNode];
-    [inputNode removeTapOnBus:0];
+//    [inputNode removeTapOnBus:0];
     
     int bufferSize = [HPPitchTracker defaultBufferSize];
     
@@ -71,8 +73,10 @@
 }
 
 - (void)stop {
-    [engine stop];
-    [engine reset];
+    if ([engine isRunning]) {
+        [engine stop];
+        [engine reset];
+    }
     [[engine inputNode] removeTapOnBus:0];
 }
 

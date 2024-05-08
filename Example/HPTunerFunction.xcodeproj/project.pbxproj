@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		50F04FEF8E2B412D6FDCDB1C /* Pods_HPTunerFunction_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537FF10178B124266487339B /* Pods_HPTunerFunction_Tests.framework */; };
+		1E4446611AB55670F8A0AA24 /* libPods-HPTunerFunction_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DCE4DEC60C33B1F3833E3A /* libPods-HPTunerFunction_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,7 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		AD8F45919A0207F0F6FFE1D5 /* Pods_HPTunerFunction_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD0A163C3D0757DFDD8C567B /* Pods_HPTunerFunction_Example.framework */; };
+		90E7E9B653C22BDDD9C7F799 /* libPods-HPTunerFunction_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FBB5FD8A6DC8024A112B7F89 /* libPods-HPTunerFunction_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,6 @@
 /* Begin PBXFileReference section */
 		0BF342BB173A3EDA31FB70C4 /* Pods-HPTunerFunction_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPTunerFunction_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HPTunerFunction_Tests/Pods-HPTunerFunction_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		217F4FB520772407FEC0A0BE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		537FF10178B124266487339B /* Pods_HPTunerFunction_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HPTunerFunction_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5987A6BB9B714CFC1885BF8B /* Pods-HPTunerFunction_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPTunerFunction_Tests.release.xcconfig"; path = "Target Support Files/Pods-HPTunerFunction_Tests/Pods-HPTunerFunction_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HPTunerFunction_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HPTunerFunction_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,8 +64,9 @@
 		95618B836DDF047E4A557E6C /* Pods-HPTunerFunction_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPTunerFunction_Example.debug.xcconfig"; path = "Target Support Files/Pods-HPTunerFunction_Example/Pods-HPTunerFunction_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A209409BA7CB25F8F2485EC9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A24714A8B30C757056F1D1E7 /* HPTunerFunction.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HPTunerFunction.podspec; path = ../HPTunerFunction.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AD0A163C3D0757DFDD8C567B /* Pods_HPTunerFunction_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HPTunerFunction_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE03F343F46253336EBC496E /* Pods-HPTunerFunction_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HPTunerFunction_Example.release.xcconfig"; path = "Target Support Files/Pods-HPTunerFunction_Example/Pods-HPTunerFunction_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F2DCE4DEC60C33B1F3833E3A /* libPods-HPTunerFunction_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HPTunerFunction_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBB5FD8A6DC8024A112B7F89 /* libPods-HPTunerFunction_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HPTunerFunction_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				AD8F45919A0207F0F6FFE1D5 /* Pods_HPTunerFunction_Example.framework in Frameworks */,
+				90E7E9B653C22BDDD9C7F799 /* libPods-HPTunerFunction_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				50F04FEF8E2B412D6FDCDB1C /* Pods_HPTunerFunction_Tests.framework in Frameworks */,
+				1E4446611AB55670F8A0AA24 /* libPods-HPTunerFunction_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +134,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				AD0A163C3D0757DFDD8C567B /* Pods_HPTunerFunction_Example.framework */,
-				537FF10178B124266487339B /* Pods_HPTunerFunction_Tests.framework */,
+				FBB5FD8A6DC8024A112B7F89 /* libPods-HPTunerFunction_Example.a */,
+				F2DCE4DEC60C33B1F3833E3A /* libPods-HPTunerFunction_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				72C678FD47D2057AB97E383A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -226,7 +225,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				6AB60E004575FA2A66E55CD1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +250,7 @@
 						DevelopmentTeam = 7G3NS22V5M;
 					};
 					6003F5AD195388D20070C39A = {
+						DevelopmentTeam = 7G3NS22V5M;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -341,42 +340,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6AB60E004575FA2A66E55CD1 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HPTunerFunction_Tests/Pods-HPTunerFunction_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HPTunerFunction_Tests/Pods-HPTunerFunction_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		72C678FD47D2057AB97E383A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HPTunerFunction_Example/Pods-HPTunerFunction_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/HPTunerFunction/HPTunerFunction.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HPTunerFunction.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HPTunerFunction_Example/Pods-HPTunerFunction_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -523,7 +486,11 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -540,7 +507,11 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -550,6 +521,7 @@
 			baseConfigurationReference = 0BF342BB173A3EDA31FB70C4 /* Pods-HPTunerFunction_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7G3NS22V5M;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -575,6 +547,7 @@
 			baseConfigurationReference = 5987A6BB9B714CFC1885BF8B /* Pods-HPTunerFunction_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7G3NS22V5M;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

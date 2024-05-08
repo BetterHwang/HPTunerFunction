@@ -7,8 +7,7 @@
 //
 
 #import "HPViewController.h"
-#import <HPTunerFunction/HPAudioTuner.h>
-#import <HPTunerFunction/HPToneOutput.h>
+#import <HPTunerFunction/HPTunerFunction.h>
 
 @interface HPViewController () <HPAudioTunerDelegate>
 
@@ -85,7 +84,7 @@
 #pragma mark - HPAudioTunerDelegate
 - (void)audioTuner:(nonnull HPAudioTuner *)tuner didGetNoteInfo:(nonnull HPNoteInfo *)noteInfo {
     
-    NSString* info = [[NSString alloc] initWithFormat:@"A4标准音：%.2fHz\n %@%d %+.2fHz", [noteInfo note_standard], [[noteInfo getNames] objectAtIndex:0], [noteInfo indexOfOctave], [noteInfo offset]];
+    NSString* info = [[NSString alloc] initWithFormat:@"A4标准音：%.2fHz\n %@%d %+.2fHz", [[HPNoteBase shared] note_standard], [[noteInfo getNames] objectAtIndex:0], [noteInfo indexOfOctave], [noteInfo offset]];
     [_labelInfo setText:info];
     NSLog(@"%@", info);
 }

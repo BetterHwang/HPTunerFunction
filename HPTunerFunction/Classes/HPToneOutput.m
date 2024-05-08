@@ -86,7 +86,7 @@
         AudioComponentDescription description;
         description.componentType = kAudioUnitType_Output;
         //kAudioUnitSubType_RemoteIO不带回音消除功能,,kAudioUnitSubType_VoiceProcessingIO带回音消除功能
-        description.componentSubType = kAudioUnitSubType_VoiceProcessingIO;
+        description.componentSubType = kAudioUnitSubType_RemoteIO;
         description.componentManufacturer = kAudioUnitManufacturer_Apple;
         description.componentFlags = 0;
         description.componentFlagsMask = 0;

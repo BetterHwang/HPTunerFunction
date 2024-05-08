@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HPTunerFunction'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'test'
 
 # This description is used to generate tags and improve search results.
@@ -31,14 +31,16 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-#  s.source_files = 'HPTunerFunction/Classes/**/*'
-#  s.public_header_files = 'HPTunerFunction/Classes/**/*.h'
+  s.source_files = 'HPTunerFunction/Classes/**/*'
+  s.public_header_files = 'HPTunerFunction/Classes/*.h'
   
   # s.resource_bundles = {
   #   'HPTunerFunction' => ['HPTunerFunction/Assets/*.png']
   # }
-
+  
+  s.static_framework = true
   s.frameworks = 'AVFoundation', 'Foundation'
-  s.vendored_frameworks = 'HPTunerFunction/HPTunerFunction.framework'
+  s.dependency 'ReactiveObjC'
+#  s.ios.vendored_frameworks = 'HPTunerFunction/HPTunerFunction.framework'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

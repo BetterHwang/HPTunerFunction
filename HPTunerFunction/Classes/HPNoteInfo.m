@@ -6,12 +6,14 @@
 //
 
 #import "HPNoteInfo.h"
+#import "HPNoteBase.h"
 
 @interface HPNoteInfo() {
     
 }
 
-@property (nonatomic, copy) NSArray<NSNumber *> *note_standard_list;
+//@property (nonatomic, copy) NSArray<NSNumber *> *note_standard_list;
+@property (nonatomic, strong) HPNoteBase *noteBase;
 
 @end
 
@@ -20,7 +22,8 @@
 - (instancetype)init {
     self = [super init];
     if (self) {
-        [self setNote_standard:440.0];
+//        [self setNote_standard:440.0];
+        _noteBase = HPNoteBase.shared;
         _indexOfOctave = 4;
         _type = HPNote_Type_A;
         _offset = 0;
@@ -31,12 +34,27 @@
     return nil;
 }
 
+- (instancetype)initWithTypeIndex: (NSUInteger)typeIndex octaveIndex:(uint)octaveIndex {
+    self = [super init];
+    if (self) {
+//        [self setNote_standard:440.0];
+        _noteBase = HPNoteBase.shared;
+        _indexOfOctave = octaveIndex;
+        _type = typeIndex;
+        _offset = 0;
+        return self;
+    }
+    
+    return nil;
+}
+
 - (instancetype)initWithFreq:(double)freq {
     self = [super init];
     if (self) {
-        [self setNote_standard:440.0];
+//        [self setNote_standard:440.0];
+        _noteBase = HPNoteBase.shared;
         
-        NSArray<NSNumber *> *listStandard = [self note_standard_list];
+        NSArray<NSNumber *> *listStandard = _noteBase.note_standard_list;
         
         for (int i = 0; i < listStandard.count; i++) {
             int indexOfOctave = i / 12;
@@ -103,7 +121,9 @@
     }
     
     uint index = [self indexOfOctave] * 12 + (uint)[self type];
-    return [[self note_standard_list] objectAtIndex:index].doubleValue + [self offset];
+    
+    NSArray<NSNumber *> *listStandard = _noteBase.note_standard_list;
+    return [listStandard objectAtIndex:index].doubleValue + [self offset];
 }
 
 - (NSArray<NSString *> *)getNames {
@@ -152,49 +172,6 @@
             [ret addObject:@"B"];
             break;
     }
-    return ret;
-}
-
--(double)note_q {
-    return 1.0594631;
-}
-
--(void)setNote_standard:(double)note_standard {
-    _note_standard = note_standard;
-    
-    NSMutableArray* listNote = [NSMutableArray array];
-    
-    for (int i = 0; i < 120; i++) {
-        NSNumber *num;
-        if (i < 57) {
-            num = [NSNumber numberWithDouble: [self divide:[self note_standard] by: [self note_q] count:57 - i]];
-        }else if (i > 57) {
-            num = [NSNumber numberWithDouble: [self multiply:[self note_standard] by: [self note_q] count:i - 57]];
-        }else {
-            num = [NSNumber numberWithDouble: [self note_standard]];
-        }
-        [listNote addObject:num];
-    }
-    
-    self.note_standard_list = listNote;
-}
-
-//MARK: - 连乘 连除
--(double)divide:(double)dividend by:(double)divisor count:(uint)count {
-    double ret = dividend;
-    for (int i = 0; i < count; i++) {
-        ret /= divisor;
-    }
-    
-    return ret;
-}
-
--(double)multiply:(double)multiplicand by:(double)multiplier count:(uint)count {
-    double ret = multiplicand;
-    for (int i = 0; i < count; i++) {
-        ret *= multiplier;
-    }
-    
     return ret;
 }
 
